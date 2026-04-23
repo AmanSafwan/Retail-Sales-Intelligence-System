@@ -29,40 +29,38 @@ The goal is to convert operational retail data into meaningful insights for busi
 ---
 
 ## 🏗️ Project Architecture
-Retail-Sales-Intelligence-System/
-│
-├── raw_data/
-│   ├── customers.csv
-│   ├── products.csv
-│   ├── sales.csv
-│   ├── stores.csv
-│   └── staff.csv
-│
-├── etl_pipeline/
-│   ├── etl_pipeline.ipynb
-│   └── etl_script.py 
-│
-├── processed_data/
-│   ├── fact_sales.csv
-│   ├── dim_customer.csv
-│   ├── dim_product.csv
-│   ├── dim_store.csv
-│   ├── dim_staff.csv
-│   └── dim_time.csv
-│
-├── data_warehouse/
-│   ├── retail_sales_data_warehouse.sql
-│   └── star_schema_diagram.png
-│
-├── powerbi/
-│   ├── retail_dashboard.pbix
-│   └── dashboard_screenshots/
-│       ├── sales_overview.png
-│       ├── product_performance.png
-│       └── customer_insights.png
-│
-└── README.md
 
+- 📂 raw_data/
+  - customers.csv
+  - products.csv
+  - sales.csv
+  - stores.csv
+  - staff.csv
+
+- 📂 etl_pipeline/
+  - etl_pipeline.ipynb
+  - etl_script.py
+
+- 📂 processed_data/
+  - fact_sales.csv
+  - dim_customer.csv
+  - dim_product.csv
+  - dim_store.csv
+  - dim_staff.csv
+  - dim_time.csv
+
+- 📂 data_warehouse/
+  - retail_sales_data_warehouse.sql
+  - star_schema_diagram.png
+
+- 📂 powerbi/
+  - retail_dashboard.pbix
+  - dashboard_screenshots/
+    - sales_overview.png
+    - product_performance.png
+    - customer_insights.png
+
+- 📄 README.md
 
 ---
 
