@@ -32,11 +32,11 @@ The goal is to convert operational retail data into meaningful insights for busi
 Retail-Sales-Intelligence-System/
 │
 ├── raw_data/
-│   ├── customers_v2.csv
-│   ├── products_v2.csv
-│   ├── sales_v2.csv
-│   ├── stores_v2.csv
-│   └── staff_v2.csv
+│   ├── customers.csv
+│   ├── products.csv
+│   ├── sales.csv
+│   ├── stores.csv
+│   └── staff.csv
 │
 ├── etl_pipeline/
 │   ├── etl_pipeline.ipynb
